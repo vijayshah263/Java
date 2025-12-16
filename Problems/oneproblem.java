@@ -71,18 +71,80 @@ import java.util.Scanner;
 
 
 //area of trinagle..
+// public class oneproblem {
+//     public static void main(String[] args) {
+//          Scanner input = new Scanner(System.in);
+//          System.out.println("enter base ");
+//          double b = input.nextDouble();
+//          System.out.println("enter height ");
+//          double h = input.nextDouble();
+        
+//          double areaoftriangle  = (0.5 * b * h);
+
+//        System.out.println("result is " + (areaoftriangle));
+     
+
+         
+
+
+//     }
+// }
+
+//calculate the simpe intrest 
+// public class oneproblem {
+//     public static void main(String[] args) {
+//          Scanner input = new Scanner(System.in);
+//          System.out.println("Enter the Principle amount: ");
+//          int p = input.nextInt();
+//          System.out.println("Enter the rate of Intrest : ");
+//          int r = input.nextInt();
+//          System.out.println("Enter the Time: ");
+//          int t = input.nextInt();
+
+//          int simpleIntrest = ((p * r * t ) / 100);
+
+//          System.out.println("simple Intrest is: " + simpleIntrest);
+         
+
+
+         
+
+
+//     }
+// }
+//calculate the compund intrest 
+// public class oneproblem {
+//     public static void main(String[] args) {
+//          Scanner input = new Scanner(System.in);
+//          System.out.println("Enter the Principle amount: ");
+//          int p = input.nextInt();
+//          System.out.println("Enter the rate of Intrest : ");
+//          float r = input.nextFloat();
+//          System.out.println("Enter the Time: ");
+//          int t = input.nextInt();
+
+//          double compundInt = p * Math.pow((1 + r / 100), t);
+
+//          System.out.println("simple Intrest is: " + compundInt);
+         
+
+
+         
+
+
+//     }
+// }
+
+//farahanite to celcius
 public class oneproblem {
     public static void main(String[] args) {
-         Scanner input = new Scanner(System.in);
-         System.out.println("enter base ");
-         double b = input.nextDouble();
-         System.out.println("enter height ");
-         double h = input.nextDouble();
-        
-         double areaoftriangle  = (0.5 * b * h);
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter temperature in Fahrenheit: ");
+        double f = input.nextDouble();
 
-       System.out.println("result is " + (areaoftriangle));
-     
+        double c = (f - 32) ;
+        System.out.println("Temperature in Celsius: " + c + " C");
+
 
          
 
